@@ -4,10 +4,10 @@ A small, fast static website with four pages:
 
 | Page | Address | What it shows |
 | --- | --- | --- |
-| Overview | `/` | A 3D welcome, the three sections, and the four reels whose articles need link fixes first |
-| Website check | `/website/` | The rebeccakase.com health check: score, clickable pins on 3D screens, findings, action plan |
+| Overview | `/` | A navigation banner (the three reel styles, November and the website check), then the full reel library with hover-to-play previews, then the website score and the four reels whose articles need link fixes |
+| Website check | `/website/` | The rebeccakase.com check in plain English: score and clickable pins, a one-minute summary, the 8 scores (tap to expand), and the five fixes to do first |
 | November | `/november/` | The clickable calendar. Each post opens in a phone preview (reels play, carousels swipe) with captions to copy |
-| Reel library | `/reels/` | All 26 reels sorted into the three styles, with inline playback |
+| Reel library | `/reels/` | All 26 reels sorted into the three styles, with filters and previews |
 
 No build step, no framework and no dependencies. It is plain HTML, CSS and JavaScript, so Vercel serves it as is.
 

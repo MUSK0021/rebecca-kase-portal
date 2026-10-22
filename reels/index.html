@@ -25,25 +25,21 @@
   </div>
 </header>
 
-<main>
-<section class="hero nov-hero">
-  <svg class="waves" data-waves="hero" data-seed="3.7" viewBox="0 0 1440 760" preserveAspectRatio="xMidYMid slice" aria-hidden="true"></svg>
+<main class="page-top">
+<section id="library" class="alt lib">
   <div class="wrap">
-    <div class="eyebrow rv">Reel library</div>
-    <h1 class="rv">Every reel, <em>sorted by style</em></h1>
-    <p class="lede rv">26 reels in three styles, matching the three folders in New Reels on Drive. Tap any reel to play it with sound. The eight with a date are in your November calendar.</p>
-    <div class="styles3"><button class="style-card rv" type="button" data-pick="3"><span class="n">Folder 3 in Drive</span><b>11</b><span class="h">Video with voiceover</span><span class="p">Real video footage with a calm narrated voiceover. These are the reels in your November calendar.</span></button><button class="style-card rv" type="button" data-pick="2"><span class="n">Folder 2 in Drive</span><b>2</b><span class="h">Photos with voiceover</span><span class="p">Still photos with gentle movement, plus a calm narrated voiceover.</span></button><button class="style-card rv" type="button" data-pick="1"><span class="n">Folder 1 in Drive</span><b>13</b><span class="h">Animated captions, no voiceover</span><span class="p">Words and motion graphics on screen with music, and no narration. Best for people who watch with the sound off.</span></button></div>
-  </div>
-</section>
-<section id="library" class="alt">
-  <div class="wrap">
+    <div class="lib-head">
+      <div class="sec-intro"><div class="eyebrow rv">Reel library</div><h1 class="h2 rv">Every reel, <em>sorted by style</em></h1>
+      <p class="rv">26 reels in three styles, matching the three folders in New Reels on Drive. Hover over a reel to preview it, or tap to watch it with sound. The eight with a date are in your November calendar.</p></div>
+    </div>
     <div class="cal-tools rv">
-      <div class="seg" role="group" aria-label="Show">
+      <div class="seg" role="group" aria-label="Show reels by style">
         <button type="button" data-filter="all" aria-pressed="true">All 26</button>
-        <button type="button" data-filter="3" aria-pressed="false">Video with voiceover 11</button>
-        <button type="button" data-filter="2" aria-pressed="false">Photos with voiceover 2</button>
-        <button type="button" data-filter="1" aria-pressed="false">Animated captions 13</button>
+        <button type="button" data-filter="3" aria-pressed="false"><i style="background:var(--teal)"></i>Video with voiceover 11</button>
+        <button type="button" data-filter="2" aria-pressed="false"><i style="background:var(--gold)"></i>Photos with voiceover 2</button>
+        <button type="button" data-filter="1" aria-pressed="false"><i style="background:var(--plum)"></i>Animated captions 13</button>
       </div>
+      <span class="count-note" id="reel-count" aria-live="polite">26 reels</span>
     </div>
     <div class="reel-grid" id="reel-grid"><button class="rtile rv" type="button" data-id="47-tabs-entrepreneurs-voiceover" data-style="3" aria-label="Play A browser with 47 tabs open">
   <span class="pv"><img src="../media/posts/02/cover.webp" alt="" loading="lazy" width="540" height="960"><span class="sched"><span>Tue, Nov 3</span></span><span class="dur">0:57</span><span class="play"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5.5v13a1 1 0 0 0 1.5.86l10.6-6.5a1 1 0 0 0 0-1.72L9.5 4.64A1 1 0 0 0 8 5.5z"/></svg></span></span>
@@ -127,6 +123,7 @@
     <p class="cal-note rv">The voiceover in the video and photo styles is a narrated, synthetic voice reading your own published words. The same lines can be re-recorded in your own voice and swapped in. Full-quality files for posting are in Drive.</p>
   </div>
 </section>
+
 </main>
 
 <div class="modal" id="player" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="r-title">
